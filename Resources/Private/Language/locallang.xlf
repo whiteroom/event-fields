@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-12-28T08:24:09Z" product-name="news_eventfields">
+		<header/>
+		<body>
+			<trans-unit id="tx_newseventfields_domain_model_news">
+				<source>News</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_title">
+				<source>Event Title</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_type">
+				<source>Event Type</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_speaker">
+				<source>Event Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_language">
+				<source>Event Language</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_date">
+				<source>Event Date</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_time">
+				<source>Event Time</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_opening_hours">
+				<source>Event Opening Hours</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_end">
+				<source>Event End</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.fee_free">
+				<source>Fee Free</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.fee">
+				<source>Fee</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_currency">
+				<source>Event Currency</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.location">
+				<source>Location</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.location_street">
+				<source>Location Street</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.location_city">
+				<source>Location City</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.location_country">
+				<source>Location Country</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.location_wheelchair_accessible">
+				<source>Location Wheelchair Accessible</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.organizer">
+				<source>Organizer</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.organizer_www">
+				<source>Organizer Www</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.organizer_email">
+				<source>Organizer Email</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.registration_until">
+				<source>Registration Until</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.notes">
+				<source>Notes</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.subheader">
+				<source>Subheader</source>
+			</trans-unit>
+			<trans-unit id="tx_newseventfields_domain_model_news.frontend_user">
+				<source>Frontend User</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-12-28T08:24:09Z" product-name="news_eventfields">
+		<header/>
+		<body>
+			<trans-unit id="event_title.description">
+				<source>eventTitle</source>
+			</trans-unit>
+			<trans-unit id="event_type.description">
+				<source>eventType</source>
+			</trans-unit>
+			<trans-unit id="event_speaker.description">
+				<source>eventSpeaker</source>
+			</trans-unit>
+			<trans-unit id="event_language.description">
+				<source>eventLanguage</source>
+			</trans-unit>
+			<trans-unit id="event_date.description">
+				<source>eventDate</source>
+			</trans-unit>
+			<trans-unit id="event_time.description">
+				<source>eventTime</source>
+			</trans-unit>
+			<trans-unit id="event_opening_hours.description">
+				<source>eventOpeningHours</source>
+			</trans-unit>
+			<trans-unit id="event_end.description">
+				<source>eventEnd</source>
+			</trans-unit>
+			<trans-unit id="fee_free.description">
+				<source>feeFree</source>
+			</trans-unit>
+			<trans-unit id="fee.description">
+				<source>fee</source>
+			</trans-unit>
+			<trans-unit id="event_currency.description">
+				<source>eventCurrency</source>
+			</trans-unit>
+			<trans-unit id="location.description">
+				<source>location</source>
+			</trans-unit>
+			<trans-unit id="location_street.description">
+				<source>locationStreet</source>
+			</trans-unit>
+			<trans-unit id="location_city.description">
+				<source>locationCity</source>
+			</trans-unit>
+			<trans-unit id="location_country.description">
+				<source>locationCountry</source>
+			</trans-unit>
+			<trans-unit id="location_wheelchair_accessible.description">
+				<source>locationWheelchairAccessible</source>
+			</trans-unit>
+			<trans-unit id="organizer.description">
+				<source>organizer</source>
+			</trans-unit>
+			<trans-unit id="organizer_www.description">
+				<source>organizerWww</source>
+			</trans-unit>
+			<trans-unit id="organizer_email.description">
+				<source>organizerEmail</source>
+			</trans-unit>
+			<trans-unit id="registration_until.description">
+				<source>registrationUntil</source>
+			</trans-unit>
+			<trans-unit id="notes.description">
+				<source>notes</source>
+			</trans-unit>
+			<trans-unit id="subheader.description">
+				<source>subheader</source>
+			</trans-unit>
+			<trans-unit id="frontend_user.description">
+				<source>frontendUser</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
