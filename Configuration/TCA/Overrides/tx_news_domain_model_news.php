@@ -20,7 +20,7 @@ $tmp_news_eventfields_columns = [
         'config' => [
             'type' => 'input',
             'size' => 30,
-            'eval' => 'trim,required'
+            'eval' => 'trim'
         ],
 
     ],
@@ -251,8 +251,8 @@ $tmp_news_eventfields_columns = [
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_news_domain_model_news', $tmp_news_eventfields_columns);
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_news_domain_model_news',
-    '--div--;Event,event_title,event_type,event_speaker,event_language,event_date,event_time,event_opening_hours,event_end,fee,fee_free,event_currency,frontend_user,
-    --div--;Location,location,location_street,location_city,location_country,location_wheelchair_accessible,
-    --div--;Organizer,organizer,organizer_www,organizer_email,registration_until,notes');
+    '--div--;LLL:EXT:news_eventfields/Resources/Private/Language/locallang_ttc.xlf:tabs.event,event_title,event_type,event_speaker,event_language,event_date,event_time,event_opening_hours,event_end,fee,fee_free,event_currency,frontend_user,
+    --div--;LLL:EXT:news_eventfields/Resources/Private/Language/locallang_ttc.xlf:tabs.location,location,location_street,location_city,location_country,location_wheelchair_accessible,
+    --div--;LLL:EXT:news_eventfields/Resources/Private/Language/locallang_ttc.xlf:tabs.organizer,organizer,organizer_www,organizer_email,registration_until,notes');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_news_domain_model_news', 'subheader', '', 'after:title');
 

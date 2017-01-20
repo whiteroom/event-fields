@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2016-12-28T08:24:09Z" product-name="news_eventfields" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="tabs.event">
+        <source>Event</source>
+        <target>Veranstaltung</target>
+      </trans-unit>
+      <trans-unit id="tabs.location">
+        <source>Location</source>
+        <target>Ortsangaben</target>
+      </trans-unit>
+      <trans-unit id="tabs.organizer">
+        <source>Organizer</source>
+        <target>Veranstalter</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

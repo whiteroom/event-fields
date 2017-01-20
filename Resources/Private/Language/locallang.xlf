@@ -4,7 +4,7 @@
 		<header/>
 		<body>
 			<trans-unit id="tx_newseventfields_domain_model_news">
-				<source>News</source>
+				<source>Events</source>
 			</trans-unit>
 			<trans-unit id="tx_newseventfields_domain_model_news.event_title">
 				<source>Event Title</source>
@@ -58,7 +58,7 @@
 				<source>Organizer</source>
 			</trans-unit>
 			<trans-unit id="tx_newseventfields_domain_model_news.organizer_www">
-				<source>Organizer Www</source>
+				<source>Organizer WWW</source>
 			</trans-unit>
 			<trans-unit id="tx_newseventfields_domain_model_news.organizer_email">
 				<source>Organizer Email</source>
