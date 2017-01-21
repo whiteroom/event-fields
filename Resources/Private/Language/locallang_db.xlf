@@ -13,7 +13,7 @@
 				<source>Event Type</source>
 			</trans-unit>
 			<trans-unit id="tx_newseventfields_domain_model_news.event_speaker">
-				<source>Event Speaker</source>
+				<source>Event Speakers, Guests</source>
 			</trans-unit>
 			<trans-unit id="tx_newseventfields_domain_model_news.event_language">
 				<source>Event Language</source>
