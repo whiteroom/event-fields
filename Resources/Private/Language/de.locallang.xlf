@@ -29,7 +29,7 @@
       </trans-unit>
       <trans-unit id="tx_newseventfields_domain_model_news.event_time">
         <source>Event Time</source>
-        <target>Zeit (Uhrzeit)</target>
+        <target>Beginn (Uhrzeit)</target>
       </trans-unit>
       <trans-unit id="tx_newseventfields_domain_model_news.event_opening_hours">
         <source>Event Opening Hours</source>

@@ -20,7 +20,7 @@
 			<target state="translated">Kurztext</target></trans-unit>
 			<trans-unit id="tx_news_domain_model_news.datetime" xml:space="preserve" approved="yes">
 				<source>Date &amp; Time</source>
-			<target state="translated">Datum &amp; Zeit</target></trans-unit>
+			<target state="translated">Datum &amp; Zeit (Erstellung)</target></trans-unit>
 			<trans-unit id="tx_news_domain_model_news.archive" xml:space="preserve" approved="yes">
 				<source>Archive</source>
 			<target state="translated">Archiv</target></trans-unit>
