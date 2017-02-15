@@ -7,7 +7,7 @@ CREATE TABLE tx_news_domain_model_news (
 	event_type varchar(255) DEFAULT '' NOT NULL,
 	event_speaker varchar(255) DEFAULT '' NOT NULL,
 	event_language varchar(255) DEFAULT '' NOT NULL,
-	event_date int(11) DEFAULT '0' NOT NULL,
+	event_date date DEFAULT '0000-00-00',
 	event_time varchar(255) DEFAULT '' NOT NULL,
 	event_opening_hours varchar(255) DEFAULT '' NOT NULL,
 	event_end varchar(255) DEFAULT '' NOT NULL,
