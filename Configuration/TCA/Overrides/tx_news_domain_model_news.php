@@ -48,12 +48,10 @@ $tmp_news_eventfields_columns = [
         'exclude' => 0,
         'label' => 'LLL:EXT:news_eventfields/Resources/Private/Language/locallang_db.xlf:tx_newseventfields_domain_model_news.event_date',
         'config' => [
-            'dbType' => 'date',
+            'l10n_mode' => 'copy',
             'type' => 'input',
             'size' => 7,
             'eval' => 'date,required',
-            'checkbox' => 0,
-            'default' => '0000-00-00'
         ],
 
     ],
