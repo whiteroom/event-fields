@@ -59,10 +59,10 @@
 			<target state="translated">Archiv</target></trans-unit>
 			<trans-unit id="flexforms_general.archiveRestriction.active" xml:space="preserve" approved="yes">
 				<source>Only active (non archived)</source>
-			<target state="translated">Nur aktive (nicht archiviert)</target></trans-unit>
+			<target state="translated">aktuelle Veranstaltungen</target></trans-unit>
 			<trans-unit id="flexforms_general.archiveRestriction.archived" xml:space="preserve" approved="yes">
 				<source>Archived</source>
-			<target state="translated">Archivierte</target></trans-unit>
+			<target state="translated">archivierte Veranstaltungen</target></trans-unit>
 			<trans-unit id="flexforms_general.orderBy" xml:space="preserve" approved="yes">
 				<source>Sort by</source>
 			<target state="translated">Sortieren nach</target></trans-unit>
@@ -331,6 +331,12 @@
 			<trans-unit id="module.recursive" xml:space="preserve" approved="yes">
 				<source>Recursive</source>
 			<target state="translated">Rekursiv</target></trans-unit>
+			
+			<trans-unit id="module.timeRange" xml:space="preserve">
+				<source>Time range</source>
+				<target state="translated">Datum von</target>
+			</trans-unit>
+			
 			<trans-unit id="module.timeRestriction" xml:space="preserve" approved="yes">
 				<source>Time Restriction</source>
 			<target state="translated">Zeitbeschränkung</target></trans-unit>
@@ -394,6 +400,24 @@
 			<trans-unit id="administration.nonewsfoundSwitch" xml:space="preserve" approved="yes">
 				<source>See all pages containing news records</source>
 			<target state="translated">Zeige alle Seiten mit Veranstaltungs-Beiträgen.</target></trans-unit>
+			
+			
+			<trans-unit id="administration.filter.hidden" xml:space="preserve">
+				<source>Hidden</source>
+				<target state="translated">Aktiv/Inaktiv</target>
+			</trans-unit>
+			<trans-unit id="administration.filter.hidden.hidden" xml:space="preserve">
+				<source>only hidden</source>
+				<target state="translated">ausgeblendete Veranstaltungen</target>
+			</trans-unit>
+			<trans-unit id="administration.filter.hidden.nonHidden" xml:space="preserve">
+				<source>only non-hidden</source>
+				<target state="translated">angezeigte Veranstaltungen</target>
+			</trans-unit>
+			
+			
+			
+			
 			<trans-unit id="news-folder" xml:space="preserve" approved="yes">
 				<source>News</source>
 			<target state="translated">Veranstaltungen</target></trans-unit>
