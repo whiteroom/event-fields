@@ -24,16 +24,23 @@ $tmp_news_eventfields_columns = [
         ],
 
     ],
+
+    
+    
     'event_speaker' => [
         'exclude' => 0,
         'label' => 'LLL:EXT:news_eventfields/Resources/Private/Language/locallang_db.xlf:tx_newseventfields_domain_model_news.event_speaker',
         'config' => [
-            'type' => 'input',
-            'size' => 30,
+            'type' => 'text',
+            'cols' => 20,
+            'rows' => 5,
             'eval' => 'trim'
         ],
 
     ],
+    
+    
+    
     'event_language' => [
         'exclude' => 1,
         'label' => 'LLL:EXT:news_eventfields/Resources/Private/Language/locallang_db.xlf:tx_newseventfields_domain_model_news.event_language',
