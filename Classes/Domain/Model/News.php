@@ -165,7 +165,7 @@ class News extends \GeorgRinger\News\Domain\Model\News
      *
      * @var string
      */
-    protected $notes = '';
+    protected $eventNotes = '';
 
     /**
      * subheader
@@ -622,24 +622,24 @@ class News extends \GeorgRinger\News\Domain\Model\News
     }
 
     /**
-     * Returns the notes
+     * Returns the eventNotes
      *
-     * @return string $notes
+     * @return string $eventNotes
      */
-    public function getNotes()
+    public function getEventNotes()
     {
-        return $this->notes;
+        return $this->eventNotes;
     }
 
     /**
-     * Sets the notes
+     * Sets the eventNotes
      *
-     * @param string $notes
+     * @param string $eventNotes
      * @return void
      */
-    public function setNotes($notes)
+    public function setEventNotes($eventNotes)
     {
-        $this->notes = $notes;
+        $this->eventNotes = $eventNotes;
     }
 
     /**

@@ -87,9 +87,9 @@
         <source>Registration Until</source>
         <target>Anmeldung bis</target>
       </trans-unit>
-      <trans-unit id="tx_newseventfields_domain_model_news.notes">
-        <source>Notes</source>
-        <target>Bemerkungen</target>
+      <trans-unit id="tx_newseventfields_domain_model_news.event_notes">
+        <source>Event Notes</source>
+        <target>Bemerkungen zur Veranstaltung</target>
       </trans-unit>
       <trans-unit id="tx_newseventfields_domain_model_news.subheader">
         <source>Subheader</source>

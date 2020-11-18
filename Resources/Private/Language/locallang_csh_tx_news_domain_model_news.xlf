@@ -63,8 +63,8 @@
 			<trans-unit id="registration_until.description">
 				<source>registrationUntil</source>
 			</trans-unit>
-			<trans-unit id="notes.description">
-				<source>notes</source>
+			<trans-unit id="event_notes.description">
+				<source>event_notes</source>
 			</trans-unit>
 			<trans-unit id="subheader.description">
 				<source>subheader</source>

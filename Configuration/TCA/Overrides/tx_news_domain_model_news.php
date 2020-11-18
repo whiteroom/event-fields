@@ -23,10 +23,7 @@ $tmp_news_eventfields_columns = [
             'eval' => 'trim'
         ],
 
-    ],
-
-    
-    
+    ], 
     'event_speaker' => [
         'exclude' => 0,
         'label' => 'LLL:EXT:news_eventfields/Resources/Private/Language/locallang_db.xlf:tx_newseventfields_domain_model_news.event_speaker',
@@ -38,9 +35,6 @@ $tmp_news_eventfields_columns = [
         ],
 
     ],
-    
-    
-    
     'event_language' => [
         'exclude' => 1,
         'label' => 'LLL:EXT:news_eventfields/Resources/Private/Language/locallang_db.xlf:tx_newseventfields_domain_model_news.event_language',
@@ -220,9 +214,9 @@ $tmp_news_eventfields_columns = [
         ],
 
     ],
-    'notes' => [
+    'event_notes' => [
         'exclude' => 0,
-        'label' => 'LLL:EXT:news_eventfields/Resources/Private/Language/locallang_db.xlf:tx_newseventfields_domain_model_news.notes',
+        'label' => 'LLL:EXT:news_eventfields/Resources/Private/Language/locallang_db.xlf:tx_newseventfields_domain_model_news.event_notes',
         'config' => [
             'type' => 'text',
             'cols' => 40,
@@ -258,6 +252,6 @@ $tmp_news_eventfields_columns = [
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_news_domain_model_news',
     '--div--;LLL:EXT:news_eventfields/Resources/Private/Language/locallang_ttc.xlf:tabs.event,event_title,event_type,event_speaker,event_language,event_date,event_time,event_opening_hours,event_end,fee,fee_free,event_currency,frontend_user,
     --div--;LLL:EXT:news_eventfields/Resources/Private/Language/locallang_ttc.xlf:tabs.location,location,location_street,location_city,location_country,location_wheelchair_accessible,
-    --div--;LLL:EXT:news_eventfields/Resources/Private/Language/locallang_ttc.xlf:tabs.organizer,organizer,organizer_www,organizer_email,registration_until,notes');
+    --div--;LLL:EXT:news_eventfields/Resources/Private/Language/locallang_ttc.xlf:tabs.organizer,organizer,organizer_www,organizer_email,registration_until,event_notes');
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tx_news_domain_model_news', 'subheader', '', 'after:title');
 

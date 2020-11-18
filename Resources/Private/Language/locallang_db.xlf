@@ -66,8 +66,8 @@
 			<trans-unit id="tx_newseventfields_domain_model_news.registration_until">
 				<source>Registration Until</source>
 			</trans-unit>
-			<trans-unit id="tx_newseventfields_domain_model_news.notes">
-				<source>Notes</source>
+			<trans-unit id="tx_newseventfields_domain_model_news.event_notes">
+				<source>Event Notes</source>
 			</trans-unit>
 			<trans-unit id="tx_newseventfields_domain_model_news.subheader">
 				<source>Subheader</source>

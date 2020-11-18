@@ -23,7 +23,7 @@ CREATE TABLE tx_news_domain_model_news (
 	organizer_www varchar(255) DEFAULT '' NOT NULL,
 	organizer_email varchar(255) DEFAULT '' NOT NULL,
 	registration_until varchar(255) DEFAULT '' NOT NULL,
-	notes text NOT NULL,
+	event_notes text NOT NULL,
 	subheader varchar(255) DEFAULT '' NOT NULL,
 	frontend_user int(11) DEFAULT '0' NOT NULL,
 
